@@ -3,8 +3,9 @@ HTTP-сервер на чистом Python
 
 ## Описание
 
-Сервис - конвертер валют, который обрабатывает запрос клиента для совершения обменных операций. 
-Асинхронный сервис корректно обрабатывает запрос, обращается к стороннему веб-ресурсу через API, и предоставляет информацию о результате обмена.
+Сервис - конвертер валют, который обрабатывает запрос клиента для совершения обменных операций.
+Асинхронный сервис корректно обрабатывает запрос, обращается к стороннему веб-ресурсу через API, и 
+предоставляет информацию о результате обмена.
 
 ### Особенности:
 
@@ -17,19 +18,19 @@ HTTP-сервер на чистом Python
 
 Корректный GET-запрос
 
-![f]()
+![f](https://github.com/Padking/HTTPserver/blob/master/screenshots/pass_get.jpg)
 
 Некорректный GET-запрос
 
-![s]()
+![s](https://github.com/Padking/HTTPserver/blob/master/screenshots/fail_get.jpg)
 
 Некорректный GET-запрос (неверный код валюты)
 
-![t]()
+![t](https://github.com/Padking/HTTPserver/blob/master/screenshots/fail_get_invalid_currency.jpg)
 
 Лог
 
-![fo]()
+![fo](https://github.com/Padking/HTTPserver/blob/master/screenshots/log.jpg)
 
 ### Требования к окружению:
 
